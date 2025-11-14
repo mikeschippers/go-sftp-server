@@ -10,15 +10,15 @@ A lightweight, containerized SFTP server implementation written in Go. Dont use 
 
 ## Usage
 1. Build the Docker image:
-2. ```bash
+```bash
    docker build -t go-sftp-server .
    ```
 3. Run the Docker container:
-4. ```bash
+```bash
    docker run -d -p 2022:2022 --name sftp-server go-sftp-server
    ```
 5. Connect to the SFTP server using an SFTP client:
-6. ```bash
+```bash
    sftp -P 2022 testuser@localhost
    ```
 
