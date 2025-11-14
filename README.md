@@ -24,8 +24,10 @@ A lightweight, containerized SFTP server implementation written in Go. Dont use 
 
 ## Configuration
 The server accepts the following command-line flags:
+```
 -port: Port to listen on (default: 2022)
 -hostkey: Path to host key file (default: /keys/host_ed25519_key)
 -user: Username for authentication (default: testuser)
 -pass: Password for authentication (default: testpass)
 -debug: Enable debug output (default: false)
+```
