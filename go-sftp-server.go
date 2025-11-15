@@ -22,7 +22,6 @@ var (
 	hostKeyPath = flag.String("hostkey", "/keys/host_ed25519_key", "Path to host key file")
 	username    = flag.String("user", "testuser", "Username for authentication")
 	password    = flag.String("pass", "testpass", "Password for authentication")
-	debug       = flag.Bool("debug", false, "Enable debug output")
 )
 
 func main() {

@@ -29,5 +29,4 @@ The server accepts the following command-line flags:
 -hostkey: Path to host key file (default: /keys/host_ed25519_key)
 -user: Username for authentication (default: testuser)
 -pass: Password for authentication (default: testpass)
--debug: Enable debug output (default: false)
 ```
